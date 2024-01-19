@@ -56,7 +56,6 @@ body {
 .btn:active {
   transform: scale(0.95);
 }
-
 .alert-container {
   position: fixed;
   width: 300px;
@@ -72,7 +71,6 @@ body {
   font-size: 20px;
   transition: 0.4s;
 }
-
 .active.alert-container {
   right: -300px;
 }
