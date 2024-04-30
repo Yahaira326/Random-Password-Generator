@@ -16,7 +16,6 @@ copyIconEl.addEventListener("click", () => {
     }, 2000);
   }
 });
-
 function createPassword() {
   const chars =
     "0123456789abcdefghijklmnopqrstuvwxtz!@#$%^&*()_+?:{}[]ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -26,12 +25,10 @@ function createPassword() {
     const randomNum = Math.floor(Math.random() * chars.length);
     password += chars.substring(randomNum, randomNum + 1);
   }
-  
   inputEl.value = password;
   alertContainerEl.innerText = password + " copied!";
   
 }
-
 function copyPassword() {
   inputEl.select();
   inputEl.setSelectionRange(0, 9999);
